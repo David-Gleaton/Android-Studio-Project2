@@ -1,0 +1,63 @@
+<resources>
+    <string name="app_name">GleatonHW2</string>
+
+    <!-- Title Page -->
+    <string name="Title">Pig Dice!</string>
+    <string name="Start_Game">Start Game</string>
+    <string name="About">About Pig Dice</string>
+
+    <!-- Target Dialog Information -->
+    <string name="pick_target_score">What should be the target score?\nDefault target score is 100, and a 0 will default to a 1</string>
+    <string name="TargetScore">Target Score?</string>
+    <string name="confirm_dialog">Confirm</string>
+
+    <!-- WinLoss Dialog Information -->
+    <string name="Loss_Title">Oh No, You Lost!</string>
+    <string name="Win_Title">Yay! You Won!</string>
+    <string name="Continue_or_Quit">Would you like to play again or quit?</string>
+    <string name="New_Game">New Game</string>
+    <string name="Quit">Quit</string>
+
+    <!-- Get Name Dialog Information -->
+    <string name="Name_Title">Who is playing?</string>
+    <string name="Username_Title">Enter your username below</string>
+
+    <!-- Game Controller Strings-->
+    <string name="Target_Score_Title">Target Score: \u0020</string>
+    <string name="Player_Title">Player: \u0020</string>
+    <string name="Banker_Title">\u0020 Banker: \u0020</string>
+    <string name="Round_Title">Round: \u0020</string>
+    <string name="RoundTotal_Title">RoundTotal: \u0020</string>
+    
+    <!-- Game Strings -->
+    <string name="Bank_Button">Bank</string>
+    <string name="Roll_Again_Button">Roll Again</string>
+    <string name="Player_Turn">\u0020 - Player\'s Turn</string>
+    <string name="Banker_Turn">\u0020 - Banker\'s Turn</string>
+    <string name="PlayerBanked">\u0020 Banked!</string>
+    <string name="BankerBanked">Banker Banked!</string>>
+    <string name="Player_Rolled_1">\u0020 Rolled a 1!</string>
+    <string name="Banker_Rolled_1">Banker Rolled a 1!</string>>
+
+    <!-- Spinner -->
+    <string-array name="diff_array">
+        <item>Random</item>
+        <item>Average</item>
+        <item>Cut Throat</item>
+    </string-array>
+
+    <!-- About Pig Dice Page -->
+    <string name="Direction_title">How to Play Pig Dice</string>
+    <string name="Objective">Objective:</string>
+    <string name="Objective_text">To be the first player to reach 100 points.</string>
+    <string name="Game_Play">Game play instructions:</string>
+    <string name="instructions">Decide who will go first. \n\nThe first player rolls the die. If they roll a 2, 3, 4, 5, or 6, they writes down the score.\n\nIf they did not roll a 1, the player can decide to roll again. If they again roll a 2, 3, 4, 5, or 6, they add that number to their previous score. If they roll a 1, they earn no score and immediately passes the die to the next player. \n\nWhen a player doesn’t roll a 1, they can decide to continue rolling and adding the points from each roll to their total score for that turn.  Or they can hold onto their points and pass the die to the next player. \n\nHowever! \n\nIf the player rolls a 1, they lose all their points (for that turn only) and must pass the die to the next player. \n\nPlay continues in this manner until one player reaches a score of 100 or the agreed upon target score.</string>
+    <string name="Credits">Credits</string>
+
+    <!-- Credits Page -->
+    <string name="Pig_ClipArt_Credit">\'Free Pig Clipart #1294757\' \nAvailable at clipart-library.com</string>
+    <string name="Title_image">Title Image</string>
+    <string name="Dice_Title">Game Dice</string>
+    <string name="Dice_Content">The Game Dice were initially downloaded from wikimedia.org and edited by H. David Gleaton to match the color scheme</string>
+
+</resources>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Title">
+        <!-- Saved values
+                <item name="android:textColor">#FF00EF</item>
+
+        -->
+        <item name="android:paddingLeft">10sp</item>
+        <item name="android:paddingBottom">10sp</item>
+        <item name="android:paddingRight">10sp</item>
+        <item name="android:textSize">50sp</item>
+        <item name="android:textStyle">bold|italic</item>
+        <item name="android:textColor">#c1ee8e</item>
+        <item name="android:shadowColor">#000000</item>
+        <item name="android:shadowDx">10.0</item>
+        <item name="android:shadowDy">10.0</item>
+        <item name="android:shadowRadius">20</item>
+    </style>
+
+    <style name="Title_Button">
+        <item name="android:backgroundTint">#ee8e92</item>
+        <item name="android:textSize">25sp</item>
+        <item name="android:textStyle">bold|italic</item>
+        <item name="android:textColor">#c1ee8e</item>
+
+    </style>
+
+    <style name="Game_Button">
+        <item name="android:backgroundTint">#ee8e92</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:textStyle">bold|italic</item>
+        <item name="android:textColor">#c1ee8e</item>
+
+    </style>
+
+    <style name="heading1">
+        <item name="android:paddingLeft">10sp</item>
+        <item name="android:paddingBottom">10sp</item>
+        <item name="android:paddingRight">10sp</item>
+        <item name="android:textSize">45sp</item>
+        <item name="android:textStyle">bold|italic</item>
+        <item name="android:textColor">#c1ee8e</item>
+        <item name="android:shadowColor">#000000</item>
+        <item name="android:shadowDx">10.0</item>
+        <item name="android:shadowDy">10.0</item>
+        <item name="android:shadowRadius">20</item>
+
+    </style>
+
+    <style name="normal_text">
+        <item name="android:paddingLeft">10sp</item>
+        <item name="android:paddingBottom">10sp</item>
+        <item name="android:paddingRight">10sp</item>
+        <item name="android:textSize">30sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#ee8e91</item>
+
+
+    </style>
+
+    <style name="small_text">
+        <item name="android:paddingLeft">10sp</item>
+        <item name="android:paddingBottom">10sp</item>
+        <item name="android:paddingRight">10sp</item>
+        <item name="android:paddingTop">10sp</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#ee8e91</item>
+
+
+    </style>
+
+
+
+</resources>

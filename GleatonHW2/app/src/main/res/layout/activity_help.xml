@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/title_background"
+    >
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        app:layout_constraintRight_toLeftOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:fillViewport="true"
+        >
+
+        <!--
+        David Gleaton 2/17/21
+        View for the Directions
+        Scroll in order to see all
+        -->
+
+
+        <RelativeLayout
+            android:orientation="vertical"
+            android:id="@+id/relativeLayout"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+
+
+            <TextView
+                android:id="@+id/direction_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                style="@style/Title"
+                android:text="@string/Direction_title"
+                />
+
+            <TextView
+                android:id="@+id/objective"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5sp"
+                style="@style/heading1"
+                android:text="@string/Objective"
+                android:layout_below="@id/direction_title"
+                />
+
+            <TextView
+                android:id="@+id/objective_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/normal_text"
+                android:text="@string/Objective_text"
+                android:layout_below="@id/objective"
+                />
+
+
+
+            <TextView
+                android:id="@+id/game_play_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/heading1"
+                android:text="@string/Game_Play"
+                android:layout_below="@id/objective_text"
+                />
+
+            <TextView
+                android:id="@+id/game_play_content"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/normal_text"
+                android:text="@string/instructions"
+                android:layout_below="@id/game_play_title"
+                />
+
+
+            <TextView
+                android:id="@+id/credits_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                style="@style/Title"
+                android:text="@string/Credits"
+                android:layout_below="@id/game_play_content"
+                />
+            <TextView
+                android:id="@+id/pig_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/credits_title"
+                android:layout_marginTop="20sp"
+                style="@style/heading1"
+                android:text="@string/Title_image"
+                />
+            <ImageView
+                android:id="@+id/pig_image"
+                android:layout_width="150sp"
+                android:layout_height="100sp"
+                android:layout_marginTop="5sp"
+                android:src="@drawable/pig"
+                android:scaleType="fitXY"
+                android:layout_below="@id/pig_title"
+                />
+            <TextView
+                android:id="@+id/pig_credit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/pig_image"
+                android:layout_marginTop="5sp"
+                style="@style/normal_text"
+                android:text="@string/Pig_ClipArt_Credit"
+                />
+
+            <TextView
+                android:id="@+id/DiceTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/pig_credit"
+                android:layout_marginTop="20sp"
+                style="@style/heading1"
+                android:text="@string/Dice_Title"
+                />
+            <ImageView
+                android:id="@+id/dice_image"
+                android:layout_width="100sp"
+                android:layout_height="100sp"
+                android:layout_marginTop="5sp"
+                android:src="@drawable/dice_1"
+                android:scaleType="fitXY"
+                android:layout_below="@id/DiceTitle"
+                />
+            <TextView
+                android:id="@+id/dice_credit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/dice_image"
+                android:layout_marginTop="5sp"
+                style="@style/normal_text"
+                android:text="@string/Dice_Content"
+                />
+
+
+
+        </RelativeLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
